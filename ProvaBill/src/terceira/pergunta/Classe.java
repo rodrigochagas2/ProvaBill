@@ -12,6 +12,7 @@ public class Classe implements Interface1,Interface2 {
 	public void metodo2() {
 		
 		Interface2.super.metodo();
+		System.out.println("");
 	}
 
 }
